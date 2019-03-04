@@ -4,6 +4,7 @@
 
 header {
   background-color: #03a3df;
+  padding: 1% 2% 1% 2%; 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
