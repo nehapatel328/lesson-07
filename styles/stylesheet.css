@@ -32,3 +32,20 @@ nav a:visited {
 nav .a-active {
   text-decoration: underline;
 }
+
+h2 {
+  font-family: "arial bold", sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "arial bold", sans-serif;
+  font-size: 17px;
+}
+
+p {
+  font-family: "arial regular", sans-serif;
+  font-size: 17px;
+}
+
+/*Home page*/
