@@ -71,3 +71,25 @@ p {
   margin-bottom: 2%;
   padding: 2% 5% 5% 2%;
 }
+
+/*Home page <div class="container-classes">*/
+.container-classes{
+  display: grid;
+  grid-gap: 20px 30px;
+  grid-template-columns: auto;
+}
+
+.class-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.class-2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.class-3 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
