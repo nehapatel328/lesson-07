@@ -139,6 +139,7 @@ blockquote {
   color: #03a3df;
   font-family: "arial regular", sans-serif;
   font-size: 30px;
+  padding: 3% 5% 3% 5%;
 }
 
 .blockquote-name {
