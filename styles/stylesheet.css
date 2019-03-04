@@ -73,7 +73,7 @@ footer p {
 .footer-info {
   z-index: 1;
   padding: 5% 60% 10% 10%;
-  margin: auto; 
+  margin: auto;
 }
 
 .footer-copyright {
@@ -132,4 +132,23 @@ footer p {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 2% 2% 2% 2%;
+}
+
+/*team.html*/
+.instructors-container {
+  display: grid;
+  grid-gap: 20px 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.instructor-h3 {
+  font-family: "arial bold", sans-serif;
+  font-size: 20px;
+  color: #03a3df;
+}
+
+.instructor-p {
+  font-family: "arial regular", sans-serif;
+  font-size: 17px;
+  color: #03a3df;
 }
