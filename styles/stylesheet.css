@@ -48,4 +48,20 @@ p {
   font-size: 17px;
 }
 
-/*Home page*/
+/*Home page <main>*/
+.flex-main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.p-main {
+  align-self: flex-start;
+}
+
+.flex-video {
+  align-self: center;
+}
+
+/*Home page <article>*/
