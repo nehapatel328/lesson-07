@@ -135,20 +135,48 @@ footer p {
 }
 
 /*team.html*/
+blockquote {
+  color: #03a3df;
+  font-family: "arial regular", sans-serif;
+  font-size: 30px;
+}
+
+.blockquote-name {
+  font-size: 17px;
+  font-family: "arial bold", sans-serif;
+  color: #03a3df;
+}
+
 .instructors-container {
   display: grid;
   grid-gap: 20px 30px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+#instructor-1 {
+  background-color: #1b447f;
+  padding: 2% 2% 2% 2%;
+  align-content: center;
+}
+
+#instructor-2 {
+  background-color: #1b447f;
+  padding: 2% 2% 2% 2%;
+}
+
+#instructor-3 {
+  background-color: #1b447f;
+  padding: 2% 2% 2% 2%;
+}
+
 .instructor-h3 {
   font-family: "arial bold", sans-serif;
   font-size: 20px;
-  color: #03a3df;
+  color: #ecb722;
 }
 
 .instructor-p {
   font-family: "arial regular", sans-serif;
   font-size: 17px;
-  color: #03a3df;
+  color: white;
 }
