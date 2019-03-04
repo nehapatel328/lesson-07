@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+  background-color: #03a3df;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "arial regular", sans-serif;
+  font-size: 17px;
+  padding-right: 1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+nav a:visited {
+  color: #ecb722;
+}
+
+nav .a-active {
+  text-decoration: underline;
+}
