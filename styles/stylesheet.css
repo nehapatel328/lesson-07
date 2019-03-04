@@ -65,3 +65,9 @@ p {
 }
 
 /*Home page <article>*/
+.index-classes {
+  background-color: #ecb722;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2% 5% 5% 2%;
+}
