@@ -2,6 +2,26 @@
     box-sizing: border-box;
 }
 
+/*code for hidden elements*/
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+} /*hides the elements off the page*/
+
+.hidden:focus {
+  left: 0;
+}/*makes visible when focused*/
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /*General*/
 
 header {
@@ -63,7 +83,7 @@ footer {
 footer p {
   color: white;
   margin: auto;
-  padding-top: 5%; 
+  padding-top: 5%;
 }
 
 .footer-banner {
